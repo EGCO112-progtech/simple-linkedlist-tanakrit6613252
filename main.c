@@ -123,7 +123,7 @@ int main(int argc, const char * argv[]) {
     while(head!=NULL){
         tmp=head;
         head=head->next;
-        printf("%3d", tmp->value);
+        printf("%5d", tmp->value);
         free(tmp);
     }
     
